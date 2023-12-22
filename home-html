@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Rathana.phone.Shop1</title>
+    <meta charset="UTUTF-8F-8">
+    <meta name="viewport" content="width"=device-widh, initial-scale="1"/> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css"> 
+    <link rel="stylesheet" href="./html/style.css">
+      <style type="text/css">
+          html, body {   
+            margin: 0px;  
+            text-align: center;
+        } 
+          img { 
+            width: 400px; 
+            height: 450px; 
+        }  
+     </style>
+</head>
+<body>
+<h1>My.website</h1> 
+      <img src="FB_IMG_1703085060803.jpg" width="350" height="400" />
+ <!-- Background image div -->
+<div class="bgimage">
+  <!-- Page div -->
+  <div class="page" id="pageid" align="center" >
+    <!-- Welcome text -->
+     <h1><font color="#FF9800" >&lt;</font>Welcome<br>to<br>camdobdai<font color="#FF9800" >/&gt;</font></h1>
+    <!-- Slide text -->
+    <p><span class="pagetextanimation">.</span></p>
+    <!-- Arrow -->
+    <div class="arrow" onclick="test()"></div>
+  </div>
+</div>
+</body>
+</html>
+
+
+  
