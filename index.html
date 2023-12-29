@@ -15,7 +15,15 @@
           img { 
             width: 400px; 
             height: 450px; 
-        }  
+        }
+         button {
+             font-family: sans-serif;
+             border: none;
+             padding: 15px 30px;
+             font-size: 20px;
+             outline: none;
+             border-radius: 5px;
+         }
      </style>
 </head>
 <body>
@@ -34,12 +42,28 @@
   </div>
 </div>
      <p id="sample"> Hello World! </p>
-  <button onclick="changeContent();"> Change Content </button>
+  <button onclick="longin">Longin</button>
   
   <script type="text/javascript">
-    function changeContent() {
-      document.getElementById("sample").innerHTML;
-   }
+    function getValues() {
+      var options = document.getElementById('longin').options;
+      var options_count = document.getElementById('Lonin').options.length;
+      var value = [];
+  
+      for(var i = 0; i < options_count; i++) {
+        if(options[i].selected) {
+          value.push(options[i].value);
+        }
+      }
+  
+      alert(JSON.stringify(value));
+    }
+  </script>
+</body>
+</html>
+
+
+
   </script>
 </body>
 </html>
